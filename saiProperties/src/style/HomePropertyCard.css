@@ -1,0 +1,22 @@
+@keyframes flash {
+    0%, 50%, 100% {
+      opacity: 1;
+    }
+    25%, 75% {
+      opacity: 0;
+    }
+  }
+  
+  .flash {
+    animation: flash 2s infinite;
+    text-align: center;
+  }
+  
+  .special-offers-text,
+  .most-recommended-text {
+    color: black; /* Set the color to red or any other preferred color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow */
+    font-family: 'Helvetica', sans-serif; /* Change the font family */
+    font-weight: bold; /* Optionally, set font weight */
+  }
+  
