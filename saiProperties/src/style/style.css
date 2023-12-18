@@ -90,3 +90,7 @@
   text-align: left; /* Left-align the text */
   display: block; /* Make it a block element to take full width */
 }
+
+.cardFs{
+  font-size: medium;
+}

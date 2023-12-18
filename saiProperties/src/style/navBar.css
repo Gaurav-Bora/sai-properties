@@ -15,3 +15,7 @@
     background-color: white; /* Adjust the background color of the toggler icon */
   }
   
+.buttonBg{
+  border-color: blue;
+  color: blue;
+}

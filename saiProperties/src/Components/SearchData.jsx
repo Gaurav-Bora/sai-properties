@@ -147,11 +147,11 @@ const SearchDropdowns = () => {
   return (
     <div className='m-0'>
     <form
-      className="container-fluid text-start fw-bold form-bg formbg p-4"
+      className="container-fluid text-start  form-bg formbg p-4"
       onSubmit={handleSearch}
       
     >
-    <h1 className='text-center'>Search Properties similar to your choice</h1>
+    <p className='text-center headingSd'>Search Properties similar to your choice</p>
     <div className="row mb-3">
       <div className="col-md-4">
         <label htmlFor="stateDropdown" className="form-label text-start">

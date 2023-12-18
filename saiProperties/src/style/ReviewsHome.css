@@ -45,3 +45,8 @@
 .shadingBg {
   background: linear-gradient(to right, #6d6e6f 0%, #d4d5d6 50%, #e9eaeb 100%);  
 }
+
+
+.headingReview{
+  font-size: xx-large;
+}

@@ -3,7 +3,7 @@
   .recent-shadow {
      /* Adjust the animation duration as needed */
     text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow */
+    /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow */
     font-family: 'Arial', sans-serif; /* Change the font family */
   }
   
@@ -26,3 +26,6 @@
     /* transform: skewY(-10deg); Adjust the skew angle as needed */
   }
   
+  .headingRp{
+    font-size: xx-large;
+  }

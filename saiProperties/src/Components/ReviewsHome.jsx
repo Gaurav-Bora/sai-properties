@@ -7,7 +7,7 @@ import '../style/ReviewsHome.css'; // Import the CSS file
 const ReviewsHome = () => {
   return (
     <div className="text-center shadingBg" style={{ padding: '20px' }}>
-      <h1 className="mb-4">Product Reviews</h1>
+      <p className="mb-4 headingReview">Product Reviews</p>
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-wrap="true">
         <div className="carousel-inner">
           <div className="carousel-item active">

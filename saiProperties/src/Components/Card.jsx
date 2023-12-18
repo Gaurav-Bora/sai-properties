@@ -19,6 +19,8 @@ const Card = () => {
         <div className="col-md-3">
           <InfoCard icon={<GiMoneyStack style={{ fontSize: '50px' }}/>} heading="Making Money" />
         </div>
+        
+        
         {/* Add more col-md-3 divs if needed */}
       </div>
     </div>
