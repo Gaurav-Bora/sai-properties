@@ -38,7 +38,7 @@ const NavigationBar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-body-tertiary fixed-top">
         <div className="container-fluid">
-          <Link className="navbar-brand mb-0 h1 text-emphasis" to="/front/home">
+          <Link className="navbar-brand mb-0 h1 text-emphasis px-3" to="/front/home">
             Sai Properties
           </Link>
           <button

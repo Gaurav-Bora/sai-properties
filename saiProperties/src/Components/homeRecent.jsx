@@ -5,9 +5,9 @@ import '../style/HomeRecent.css';
 
 const RecentPropertyCard = () => {
   return (
-    <div className="container-fluid text-center border border-dark rounded p-4">
+    <div className="container-fluid text-center border border-dark rounded p-4 mb-3">
       <div className="mb-4">
-        <p className="special-offers-text">Recent Posts</p>
+        
         <h1 className=" most-recommended-text headingRp">Recent Properties</h1>        
       </div>
 

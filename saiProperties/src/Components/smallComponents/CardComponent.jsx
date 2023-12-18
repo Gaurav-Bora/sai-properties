@@ -3,12 +3,12 @@ import '../../style/style.css';
 
 const InfoCard = ({ icon, heading }) => {
   return (
-    <div className="card m-5 info-card" style={{ height: '200px' }}>
+    <div className="card my-5 info-card" style={{ height: '200px' }}>
       <div className="card-body ">
         <div className="text-center">
           {icon} {/* Render the icon directly */}
         </div>
-        <p className="card-title mt-3 text-center cardFs">
+        <p className="card-title mt-3 text-center cardFs card-heading-Text">
           <span className="d-inline d-sm-none">{/* Hide on small screens */}
             <small>{heading}</small>
           </span>

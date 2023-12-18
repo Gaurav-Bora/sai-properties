@@ -12,7 +12,7 @@ const PropertyCard = ({ imageUrl, title, text, purpose, area, bathroom, bed, pri
       <div className="card-body">
         {title && (
           <p className="card-title">
-            <a href="#" className="heading-link-property-card">
+            <a href="#" className="heading-link-property-card propertyCard-heading-Text">
               {title}
             </a>
           </p>

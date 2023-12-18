@@ -154,8 +154,8 @@ const SearchDropdowns = () => {
     <p className='text-center headingSd'>Search Properties similar to your choice</p>
     <div className="row mb-3">
       <div className="col-md-4">
-        <label htmlFor="stateDropdown" className="form-label text-start">
-          Select a State:
+        <label htmlFor="stateDropdown" className="form-label text-start labelText">
+          State
         </label>
         <select
           id="stateDropdown"
@@ -174,8 +174,8 @@ const SearchDropdowns = () => {
 
       {selectedState && (
         <div className="col-md-4">
-          <label htmlFor="cityDropdown" className="form-label text-start">
-            Select a City:
+          <label htmlFor="cityDropdown" className="form-label text-start labelText">
+            City:
           </label>
           <select
             id="cityDropdown"
@@ -196,8 +196,8 @@ const SearchDropdowns = () => {
 
       {selectedState && selectedCity && (
         <div className="col-md-4">
-          <label htmlFor="locationDropdown" className="form-label text-start">
-            Select a Location:
+          <label htmlFor="locationDropdown" className="form-label text-start labelText">
+            Location:
           </label>
           <select
             id="locationDropdown"
@@ -218,7 +218,7 @@ const SearchDropdowns = () => {
       <div className="row mt-4">
         {/* Purpose */}
         <div className="col-md-3 mt-auto">
-          <label htmlFor="purposeDropdown">Select a Purpose:</label>
+          <label htmlFor="purposeDropdown" className='mb-2 labelText'>Purpose</label>
           <select
             id="purposeDropdown"
             className="form-select tagbg"
@@ -235,7 +235,7 @@ const SearchDropdowns = () => {
         </div>
         {/* Property Type */}
         <div className="col-md-3 mt-auto">
-          <label htmlFor="propertyTypeDropdown">Select a Property Type:</label>
+          <label htmlFor="propertyTypeDropdown" className='mb-2 labelText'>Property</label>
           <select
             id="propertyTypeDropdown"
             className="form-select tagbg"
@@ -252,7 +252,7 @@ const SearchDropdowns = () => {
         </div>
         {/* Sub Type */}
         <div className="col-md-3 mt-auto">
-          <label htmlFor="subTypeDropdown">Select Sub Type:</label>
+          <label htmlFor="subTypeDropdown" className='mb-2 labelText'>Type</label>
           <select
             id="subTypeDropdown"
             className="form-select tagbg"
@@ -269,7 +269,7 @@ const SearchDropdowns = () => {
         </div>
         {/* Min Bedroom */}
         <div className="col-md-3 mt-2">
-          <label htmlFor="minBedroomDropdown">Select Min Bedroom:</label>
+          <label htmlFor="minBedroomDropdown" className='mb-2 labelText'>Min Bedroom</label>
           <select
             id="minBedroomDropdown"
             className="form-select tagbg"
@@ -286,7 +286,7 @@ const SearchDropdowns = () => {
         </div>
         {/* Min Balcony */}
         <div className="col-md-3 mt-2">
-          <label htmlFor="minBalconyDropdown">Select Min Balcony:</label>
+          <label htmlFor="minBalconyDropdown" className='mb-2 labelText'>Min Balcony</label>
           <select
             id="minBalconyDropdown"
             className="form-select tagbg"
@@ -303,7 +303,7 @@ const SearchDropdowns = () => {
         </div>
         {/* Min Bathroom */}
         <div className="col-md-3 mt-2">
-          <label htmlFor="minBathroomDropdown">Select Min Bathroom:</label>
+          <label htmlFor="minBathroomDropdown" className='mb-2 labelText'>Min Bathroom</label>
           <select
             id="minBathroomDropdown"
             className="form-select tagbg"
@@ -320,7 +320,7 @@ const SearchDropdowns = () => {
         </div>
         {/* Min Price */}
         <div className="col-md-3 mt-2">
-          <label htmlFor="minPriceInput">Min Price:</label>
+          <label htmlFor="minPriceInput" className='mb-2 labelText'>Min Price</label>
           <input
             type="number"
             id="minPriceInput"
@@ -331,7 +331,7 @@ const SearchDropdowns = () => {
         </div>
         {/* Max Price */}
         <div className="col-md-3 mt-2">
-          <label htmlFor="maxPriceInput">Max Price:</label>
+          <label htmlFor="maxPriceInput" className='mb-2 labelText'>Max Price</label>
           <input
             type="number"
             id="maxPriceInput"
@@ -342,7 +342,7 @@ const SearchDropdowns = () => {
         </div>
         {/* Min Area */}
         <div className="col-md-3 mt-2">
-          <label htmlFor="minAreaInput">Min Area:</label>
+          <label htmlFor="minAreaInput" className='mb-2 labelText'>Min Area</label>
           <input
             type="number"
             id="minAreaInput"
@@ -353,7 +353,7 @@ const SearchDropdowns = () => {
         </div>
         {/* Max Area */}
         <div className="col-md-3 mt-2">
-          <label htmlFor="maxAreaInput">Max Area:</label>
+          <label htmlFor="maxAreaInput" className='mb-2 labelText'>Max Area</label>
           <input
             type="number"
             id="maxAreaInput"

@@ -4,9 +4,9 @@ import '../style/HomePropertyCard.css';
 
 const MainPropertyCard = () => {
   return (
-    <div className="container-fluid text-center border border-dark rounded p-4">
+    <div className="container-fluid text-center border border-dark rounded p-4 mb-3">
       <div className="mb-4">
-        <p className="special-offers-text">Special Offers</p>
+        
         <h1 className="most-recommended-text headingPc">Most Recommended Properties</h1>
       </div>
 
