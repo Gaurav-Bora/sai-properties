@@ -7,8 +7,8 @@ import SearchHome from '../Components/SearchHome';
 import MainFooter from '../Components/MainFooter';
 import Card from '../Components/Card';
 import NewsLetter from '../Components/NewsLetter';
-import MainPropertyCard from '../Components/homePropertyCard';
-import RecentPropertyCard from '../Components/homeRecent';
+// import MainPropertyCard from '../Components/homePropertyCard';
+// import RecentPropertyCard from '../Components/homeRecent';
 import ReviewsHome from '../Components/ReviewsHome';
 
 
@@ -19,8 +19,8 @@ const Home = () => {
       <SearchHome />
       
       <Card />
-      <RecentPropertyCard /> 
-      <MainPropertyCard />
+      {/* <RecentPropertyCard /> 
+      <MainPropertyCard /> */}
       <ReviewsHome/>
       <NewsLetter />
       <MainFooter />

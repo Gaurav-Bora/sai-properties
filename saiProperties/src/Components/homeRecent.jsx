@@ -32,4 +32,5 @@ const RecentPropertyCard = () => {
   );
 };
 
+
 export default RecentPropertyCard;

@@ -1,15 +1,13 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
-import  { useState } from 'react';
 
+
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-
 import { logout } from '../features/auth';
 import '../style/style.css';
 import '../style/navBar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { IoIosMenu } from "react-icons/io";
+import { IoIosMenu } from 'react-icons/io';
 
 const NavigationBar = () => {
   const dispatch = useDispatch();
@@ -34,9 +32,10 @@ const NavigationBar = () => {
     navigate('/front/signup');
   };
 
+
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-body-tertiary fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark  fixed-top">  {/* bg-transparent */}
         <div className="container-fluid">
           <Link className="navbar-brand mb-0 h1 text-emphasis px-3" to="/front/home">
             Sai Properties
@@ -69,10 +68,66 @@ const NavigationBar = () => {
                   Services
                 </Link>
               </li>
-              <li className="nav-item mx-2">
-                <Link className="nav-link" to="/front/about">
-                  About
+              <li className="nav-item mx-2 dropdown dropdownn">
+                <Link
+                  className="nav-link dropdown-toggle dropdownn-button"
+                  to="#"
+                  id="residentialDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Residential
                 </Link>
+                <div className="dropdown-menu dropdownn-content" aria-labelledby="residentialDropdown">
+                  <Link className="dropdown-item" to="/front/residential/rent">
+                    Rent
+                  </Link>
+                  <Link className="dropdown-item" to="/front/residential/pg-co-living">
+                    PG / Co-Living
+                  </Link>
+                  <Link className="dropdown-item" to="/front/residential/buy-re-sale">
+                    Buy Re-Sale
+                  </Link>
+                  <Link className="dropdown-item" to="/front/residential/buy-new-sale">
+                  Buy New-Sale
+                  </Link>
+                  <Link className="dropdown-item" to="/front/residential/plots-lands">
+                    Plots / Lands
+                  </Link>
+                  
+                  {/* Add more dropdown items as needed */}
+                </div>
+              </li>
+
+              <li className="nav-item mx-2 dropdown dropdownn">
+                <Link
+                  className="nav-link dropdown-toggle dropdownn-button"
+                  to="#"
+                  id="commercialDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Commercial
+                </Link>
+                <div className="dropdown-menu dropdownn-content" aria-labelledby="commercialDropdown">
+                  <Link className="dropdown-item" to="/front/commercial/rent">
+                    Rent
+                  </Link>
+                  <Link className="dropdown-item" to="/front/commercial/buy-re-sale">
+                    Buy Re-Sale
+                  </Link>
+                  <Link className="dropdown-item" to="/front/commercial/buy-new-sale">
+                    Buy New-Sale
+                  </Link>
+                  <Link className="dropdown-item" to="/front/commercial/plots-lands">
+                    Plots/Lands
+                  </Link>
+                  {/* Add more dropdown items as needed */}
+                </div>
               </li>
               <li className="nav-item mx-2">
                 <Link className="nav-link" to="/front/ourTeam">
@@ -87,12 +142,12 @@ const NavigationBar = () => {
               {!isLoggedIn && (
                 <>
                   <li className="nav-item mx-2">
-                  <button className="btn btn-primary nav-link" onClick={handleLoginClick}>
+                    <button className="btn btn-primary nav-link" onClick={handleLoginClick}>
                       Login
                     </button>
                   </li>
                   <li className="nav-item mx-2">
-                  <button className="btn btn-primary nav-link" onClick={handleSignupClick}>
+                    <button className="btn btn-primary nav-link" onClick={handleSignupClick}>
                       SignUp
                     </button>
                   </li>

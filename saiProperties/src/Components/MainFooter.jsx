@@ -13,7 +13,7 @@ const MainFooter = () => {
         <div className="row p-5">
           <FooterComponent
             heading="Sai Properties"
-            description="Sai Properties Management Services had a vision for the way real estate should work: anticipate and respond to the needs of buyers and sellers, and support the communities you serve."
+            description="Sai Properties had a vision for the way real estate should work: anticipate and respond to the needs of buyers and sellers, and support the communities you serve."
           />
 
           <FooterComponent
@@ -39,7 +39,7 @@ const MainFooter = () => {
                 My World, Baner,                
                 Pune,
                 +91 860 0177 177
-                enquiry@saiproperties.co.in"
+                info@saiproperties.co.in"
           />
         </div>
         <div className="d-flex justify-content-center align-items-center">
@@ -53,8 +53,11 @@ const MainFooter = () => {
             <FaFacebookSquare size={30} className="mx-2" />
           </a>
         </div>
-        <div className="text-center mt-3  p-5">
+        <div className="text-center mt-3  ">
           <FaRegCopyright size={20} /> 2019 SAI PROPERTIES. ALL RIGHTS RESERVED
+        </div>
+        <div className="text-center mt-1  p-5">
+          <FaRegCopyright size={20} /> 2018-2023 Codeferry Technologies. All rights reserved.
         </div>
         
       </div>
