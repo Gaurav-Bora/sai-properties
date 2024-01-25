@@ -1,0 +1,30 @@
+.clear-all {
+    margin-left: 10px; /* Adjust the margin as needed */
+    cursor: pointer;
+    color: red; /* Change the color as needed */
+    font-weight: bold; /* Add other styles as needed */
+  }
+
+  
+  /* .filter-width{
+    width: 30%;
+  } */
+  .filterBg {
+    background: linear-gradient(to right, #8cc7ee 0%, #c7dcea 50%, #f5f7f8 100%);
+    border-radius: 5px;
+  }
+ 
+ 
+
+  .margin-left-button {
+    margin-left: -5px;
+  }
+
+  .budget-header-range{
+    background: linear-gradient(to left, #8cc7ee 0%, #c7dcea 50%, #f5f7f8 100%);
+    border-radius: 5px;
+  }
+
+  .budget-button{
+    background-color: #624E80 ;
+  }

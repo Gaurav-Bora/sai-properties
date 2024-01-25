@@ -1,0 +1,41 @@
+.travelling-design {
+    background-color: antiquewhite;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.right-overview {
+    background: linear-gradient(to right, #f6e3f3 0%, #d7e6f1 50%, #f4e4cf 100%);
+    min-height: 400px;
+    box-shadow: inset 0 0 20px rgba(240, 248, 30, 0.5);
+    /* Adjust the shadow as needed */
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+    /* Smooth transition effect on box-shadow */
+
+    /* Add these lines for the hover effect */
+    cursor: pointer;
+}
+
+.right-overview:hover {
+    box-shadow: inset 10px 0 20px rgba(53, 63, 244, 0.915);
+    /* Adjust the inset value for the hover effect */
+}
+
+
+.heading-p {
+    font-weight: bold;
+}
+
+.heading-p span {
+    font-weight: 400;
+}
+
+
+.property-disc {
+    background-color: antiquewhite;
+}
+
+.amenities-list{
+    background-color: #f6e3f3;
+}

@@ -1,0 +1,9 @@
+/* Add this to your CSS file */
+.team-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-image:hover {
+    transform: scale(1.1);
+  }
+  

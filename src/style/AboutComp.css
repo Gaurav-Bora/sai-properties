@@ -1,0 +1,52 @@
+
+  
+/* AboutComp.css */
+
+/* Container styles */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  .about-heading {
+    margin-bottom: 10px;
+  }
+  
+  /* Content container styles */
+  .content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Video styles */
+  .video-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    border: 3px solid #ccc;
+  }
+  
+  /* Text styles */
+  .text-container {
+    flex: 1;
+  }
+  
+  .text-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Additional text styles */
+  .additional-text {
+    margin-top: 20px;
+  }
+
+  .p-justify{
+    text-align: justify;
+  }

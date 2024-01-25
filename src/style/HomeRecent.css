@@ -1,0 +1,31 @@
+
+  
+  .recent-shadow {
+     /* Adjust the animation duration as needed */
+    text-align: center;
+    /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow */
+    font-family: 'Arial', sans-serif; /* Change the font family */
+  }
+  
+  
+  .most-recent {
+    color: black;
+    font-weight: bold; /* Optionally, set font weight */
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .sleeping-line {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50px;
+    border-bottom: 3px solid #1179ef; /* Change the color as needed */
+    /* transform: skewY(-10deg); Adjust the skew angle as needed */
+  }
+  
+  .headingRp{
+    font-size: xx-large;
+  }

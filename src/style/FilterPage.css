@@ -1,0 +1,15 @@
+.inline-block{
+    display: inline-block;
+}
+
+.container-filter-width {
+    
+    
+    width: 400px; /* Set your desired width here */
+    /* margin: 0 auto; Center the container horizontally (optional) */
+  }
+
+.container-space{
+    display: flex;
+    justify-content: space-between;
+}
