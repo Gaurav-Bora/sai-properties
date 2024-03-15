@@ -1,0 +1,109 @@
+body {
+  overflow-x: hidden;
+}
+
+
+.homebg{
+    background: url('../Images/4.jpg');
+    background-position: center;
+  
+  width: 100%;
+  aspect-ratio: auto ;
+  height: 921px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }  
+
+  .form-container {
+    width: 600px; /* Set the desired width */
+    height: 600px; /* Set the desired height */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+
+  .navbar-logo {
+    height: 40px; /* Adjust the height as needed */
+    margin-right: 1rem;
+  }
+
+/* InfoCard.css */
+.info-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add a smooth transition effect for both transform and box-shadow */
+}
+
+.info-card:hover {
+  transform: scale(1.05); /* Increase the size on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+
+
+
+
+.example-container div {
+  background: white;
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+}
+
+/* for mobile devices */
+
+/* Add this to your style.css or a dedicated mobile.css file */
+
+@media (max-width: 767px) {
+  .info-card {
+    height: auto; /* Adjust height for smaller screens */
+    margin: 10px; /* Add margin for better spacing on small screens */
+  }
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .card-title {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+}
+ 
+
+/* navigation style */
+/* Add this to your style.css or a dedicated mobile.css file */
+
+@media (max-width: 767px) {
+  .navbar-nav .nav-link {
+    font-size: 18px; /* Adjust the font size for smaller screens */
+  }
+
+  .navbar-nav .nav-link.ms-4 {
+    margin-left: 1rem !important; /* Adjust the margin for the links with ms-4 class */
+  }
+
+  .navbar-toggler-icon {
+    font-size: 1.5rem; /* Adjust the font size of the navbar toggler icon for smaller screens */
+  }
+}
+
+
+/* property card  */
+
+.heading-link-property-card {
+  text-decoration: none; /* Remove underline */
+  color: #1179ef; /* Blue color */
+  text-align: left; /* Left-align the text */
+  display: block; /* Make it a block element to take full width */
+}
+
+.cardFs{
+  font-size: medium;
+}
+
+.card-heading-Text{
+  font-size: 19px;
+}
+
+.propertyCard-heading-Text{
+  font-size: 20px;
+}

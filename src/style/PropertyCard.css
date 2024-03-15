@@ -1,0 +1,39 @@
+ /* .img-height{
+    height: 100%;
+ } */
+
+ /* PropertyCardCustom.css */
+.card-body-custom {
+    display: block !important; /* Override Bootstrap's display: flex */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .button-container button {
+    margin-left: 8px; /* Adjust the margin between buttons as needed */
+  }
+
+  .text-increase {
+    font-size: 18px; /* Adjust the size according to your preference */
+    font-weight: 500;
+  }
+  
+  .text-increase span {
+    /* Styles for the text inside <span> */
+    font-size: 16px;
+    font-weight: 400;
+    /* font-style: italic; */
+  }
+
+  .propertyBg {
+    background: linear-gradient(to right,#dda9ec 0%, #e5ebf0 50%, #e9f3c8 100%);  
+  }
+  
+
+  .modal-form-header{
+    background-color: #A0AECD;
+  }
+  

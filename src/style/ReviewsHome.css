@@ -1,0 +1,52 @@
+
+
+
+
+.review-container {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.profile-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.review-content {
+  flex: 1;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.review-text {
+  margin-bottom: 10px;
+}
+
+.review-location {
+  font-style: italic;
+  color: #888;
+} 
+
+
+
+.shadingBg {
+  background: linear-gradient(to right, #6d6e6f 0%, #d4d5d6 50%, #e9eaeb 100%);  
+}
+
+
+.headingReview{
+  font-size: xx-large;
+}

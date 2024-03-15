@@ -1,0 +1,22 @@
+.label-enquiry{
+    font-size: 20px;
+}
+
+.margin-enquiry{
+    padding-top: 70px;
+    background: linear-gradient(to right, #b7b7b4 0%, #f6f6f4 50%, #fffffb 100%);  
+}
+
+.section-heading{
+    
+    background-color: rgb(246, 163, 30);
+    padding: 5px;
+    font-size: large;
+    font-weight: normal;
+}
+
+/* Add this style for the error border */
+.error-border {
+    border-color: red;
+  }
+  
